@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+</head>
+
+<body>
+    <script>
+        function factorial(n) {
+
+            var result = 1;
+            for (i = 1; i <= n; i++) {
+                result = result * i;
+            }
+            return result;
+        }
+
+        function recursiveFactorial(n) {
+            if (n == 0)
+                return 1;
+            else
+                return recursiveFactorial(n - 1) * n;
+        }
+
+        var rf = recursiveFactorial(5);
+        var userAnswer = prompt('Введите факториал числа');
+        var f = factorial(userAnswer);
+        alert(f);
+    </script>
+</body>
+
+</html>

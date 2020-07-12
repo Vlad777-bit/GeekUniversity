@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+    var answer = parseInt(Math.random() * 100);
+    userNum = 1;
+
+    while (true) {
+        var userAnswer = prompt('Угадайте число.\nХодит игрок № ' + userNum + ' \nДля выхода нажмите f');
+
+        if (userAnswer == 'f')
+            break;
+
+        userAnswer = parseInt(userAnswer);
+
+        if (userAnswer == answer) {
+            alert('Поздравляю, победил игрок № ' + userNum);
+            break;
+        } else if (userAnswer > answer) {
+            alert('Вы ввели слишком большое число');
+        } else if (userAnswer < answer) {
+            alert('Вы ввели слишком маленькое число');
+        }
+
+        if (userNum == 1)
+            userNum = 2;
+        else
+            userNum = 1;
+
+    }
+
+    alert('Правильным числом было: ' + answer);
+</script>

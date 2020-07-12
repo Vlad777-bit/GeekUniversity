@@ -1,0 +1,40 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+    function askForWords(words) {
+        while (words.length != 0) {
+            i = parseInt(Math.random() * words.length);
+            userTranslate = prompt('Как переводиться слово ' + words[i][0]);
+
+            if (userTranslate == words[i][1]) {
+                alert('Поздравляю ответ верный');
+                words.splice(i, 1);
+            } else {
+                alert('Не верно ' + ' Это слово ' + words[i][1]);
+            };
+        }
+    }
+
+    var easyWords = [
+        ['do', 'делать'],
+        ['translate', 'переводить'],
+        ['like', 'нравиться'],
+        ['food', 'еда'],
+        ['brother', 'брат'],
+    ];
+
+    askForWords(easyWords);
+    alert('Вы переходите на следующий уровень');
+
+    var hardWords = [
+        ['update', 'обновление'],
+        ['if', 'если'],
+        ['have', 'иметь'],
+        ['agree', 'соглашаться'],
+        ['improve', 'улучшить'],
+    ];
+
+    askForWords(hardWords);
+
+
+    alert('Поздравляю вы выучили все слова!!!');
+</script>

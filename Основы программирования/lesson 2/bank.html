@@ -1,0 +1,13 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+    var sum = +prompt('Введите сумму вклада');
+    percent = +prompt('Введите процентную ставку');
+    maxYears = +prompt('На сколько лет вы хотите открыть вклад?');
+
+    for(year = 1; year <= maxYears; year++){
+        sum = sum + (sum * percent / 100);
+        document.write('Ваша сумма состовляет ' + sum.toFixed(2) + ' за ' + year + '-й' + ' год' + '<br>');
+    }
+
+</script>

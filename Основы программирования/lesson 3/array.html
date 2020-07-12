@@ -1,0 +1,33 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+    var numbers = [];
+
+    for (i = 1; i < 5; i++) {
+        randomNumbers = parseInt(Math.random() * 100);
+        numbers.push(randomNumbers);
+    }
+
+    alert('Запомните эти числа ' + numbers);
+
+    var userAnswer = +prompt('Каким было первое число?');
+    if (userAnswer == numbers[0]) {
+        alert('Вы угодали!');
+    } else {
+        alert('А вот и нет, это было число ' + numbers[0]);
+    }
+
+    userAnswer = +prompt('А последнее?');
+    if (userAnswer == numbers[numbers.length - 1]) {
+        alert('Правильно!');
+    } else {
+        alert('А вот и нет, это было число ' + numbers[numbers.length - 1]);
+    }
+
+    var n = parseInt(Math.random() * 5);
+    userAnswer = +prompt('Как насчёт ' + (n + 1) + ' числа');
+    if (userAnswer == numbers[n]) {
+        alert('Молодец!');
+    } else {
+        alert('Нет, не оно');
+    }
+</script>

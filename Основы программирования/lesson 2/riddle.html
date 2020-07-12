@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+    function askRiddle(riddle, answer) {
+
+        var userAnswer = prompt(riddle);
+        userAnswer = userAnswer.toLocaleLowerCase();
+
+        for (i = 0; i < answer.length; i++) {
+            if (userAnswer == answer[i]) {
+                alert('Поздравляю, вы угодали');
+                correctAnswer++;
+                return;
+            }
+        }
+
+        alert('Не верно');
+    }
+
+    var correctAnswer = 0;
+
+    askRiddle('Летает без крыльев, плачет без глаз', ['туча', 'тучка']);
+    askRiddle('В каком городе спрятались мужское имя и сторона света?', ['владивосток']);
+    askRiddle('Идет то в гору, то с горы, но остается на месте', ['дорога']);
+    askRiddle('В каком слове 5 "е" и никаких других гласных?', ['переселенец']);
+
+    alert('Верных ответов только: ' + correctAnswer);
+</script>

@@ -1,0 +1,54 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+    function getArray(n) {
+        var arr = [];
+        for (i = 1; i < n; i++)
+            arr.push(i);
+        return arr;
+    }
+
+    function sumArray(arr) {
+        var sum = 0;
+        for (i = 0; i < arr.length; i++) {
+            sum += arr[i];
+        }
+        return sum;
+    }
+
+    function max(arr) {
+        var max = arr[0];
+        for (i = 0; i < arr.length; i++) {
+            if (arr[i] > max)
+                max = arr[i];
+        }
+        return max;
+    }
+
+    function min(arr) {
+        var min = arr[0];
+        for (i = 0; i < arr.length; i++) {
+            if (arr[i] < min)
+                min = arr[i];
+        }
+        return min;
+    }
+
+    function getEven(arr) {
+        var even = [];
+        for (i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 0)
+                even.push(arr[i]);
+        }
+        return even;
+    }
+    
+    var userNum = +prompt('Введите положительное число');
+
+    var arr = getArray(userNum);
+    alert('Число от нуля до вашего числа ' + arr);
+    alert('Сумма этого числа состовляет ' + sumArray(arr));
+    alert('Максимум этого числа составляет ' + max(arr));
+    alert('Минимум этого числа составляет ' + min(arr));
+    alert('Чётные числа, вашего числа ' + getEven(arr));
+    
+</script>
