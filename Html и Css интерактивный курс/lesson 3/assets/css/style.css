@@ -13,14 +13,18 @@ a {
 
 .menu_list {
     list-style-type: none;
-
+    float: left;
 }
 
 .menu_link {
     font-size: 20px;
     color: darkblue;
+    font-style: oblique;
+    float: right;
+    padding-right: 20px;
 }
 
+/*Страница товара*/
 .header {
     color: #000000;
     font-size: 18px;
@@ -42,10 +46,64 @@ a {
     line-height: 24px;
     text-align: left;
 }
+/*Картинка*/
+.img {
+    outline: 2px solid gray;
+    width: 464px;
+    height: 310px;
+    float: left;
+    margin-right: 10px;
+}
 
+/*Характеристики*/
 .specifications > li {
     list-style-type: none;
     font-style: italic;
     font-size: 18px;
     color: darkgreen;
+}
+
+/*Контакты*/
+form {
+    width: 40%;
+    height: 540px;
+    background: #ccc;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.input {
+    width: 200px;
+    height: 20px;
+    font-style: oblique;
+    color: blue;
+    background: #eaeaea;
+    border-radius: 15px;
+}
+
+span {
+    font-style: oblique;
+    font-size: 18px;
+}
+
+select {
+    height: 20px;
+    border-radius: 15px;
+    background: #eaeaea;
+    font-style: oblique;
+}
+
+textarea {
+    background: #eaeaea;
+    border-radius: 15px;
+    color: blue;
+    font-style: oblique;
+}
+
+.btn {
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+    background: #eaeaea;
+    margin: 7px 8px 0 5px;
 }
