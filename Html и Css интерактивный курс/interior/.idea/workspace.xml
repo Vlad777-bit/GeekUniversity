@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae29fa76-8969-432c-8d1c-7f06a3b5d97b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/showroom/b_chair.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/showroom/chair.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/showroom/d_chair.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/showroom/r_chair.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/showroom/w_arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/showroom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Less File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1fPNymKx2Dp2PDSVfzrUHy2uXdA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae29fa76-8969-432c-8d1c-7f06a3b5d97b" name="Default Changelist" comment="" />
+      <created>1596116025181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596116025181</updated>
+      <workItem from="1596116026387" duration="5282000" />
+      <workItem from="1596134098907" duration="2542000" />
+      <workItem from="1596181280783" duration="5858000" />
+      <workItem from="1596187390370" duration="8786000" />
+      <workItem from="1596208743197" duration="23000" />
+      <workItem from="1596271712960" duration="12554000" />
+      <workItem from="1596454782442" duration="770000" />
+      <workItem from="1596459049023" duration="4904000" />
+      <workItem from="1596615230284" duration="10953000" />
+      <workItem from="1596626560515" duration="8972000" />
+      <workItem from="1596651727256" duration="5212000" />
+      <workItem from="1596785744454" duration="276000" />
+      <workItem from="1596786691834" duration="12881000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="467" y="247" width="484" height="307" key="#Configure_Path_Variables" timestamp="1596187411971">
+      <screen x="62" y="27" width="1304" height="741" />
+    </state>
+    <state x="467" y="247" width="484" height="307" key="#Configure_Path_Variables/62.27.1304.741@62.27.1304.741" timestamp="1596187411971" />
+    <state x="601" y="234" width="215" height="340" key="#File_Watchers" timestamp="1596116613317">
+      <screen x="62" y="27" width="1304" height="741" />
+    </state>
+    <state x="601" y="234" width="215" height="340" key="#File_Watchers/62.27.1304.741@62.27.1304.741" timestamp="1596116613317" />
+    <state x="424" y="222" width="570" height="357" key="#Notifications" timestamp="1596181544641">
+      <screen x="62" y="27" width="1304" height="741" />
+    </state>
+    <state x="424" y="222" width="570" height="357" key="#Notifications/62.27.1304.741@62.27.1304.741" timestamp="1596181544641" />
+    <state x="932" y="197" width="800" height="719" key="#Plugins" timestamp="1596459056709">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="932" y="197" width="800" height="719" key="#Plugins/62.27.1858.1053@62.27.1858.1053" timestamp="1596459056709" />
+    <state x="172" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596285728902">
+      <screen x="62" y="27" width="1304" height="741" />
+    </state>
+    <state x="172" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.27.1304.741@62.27.1304.741" timestamp="1596285728902" />
+    <state x="447" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596116562893">
+      <screen x="62" y="27" width="1304" height="741" />
+    </state>
+    <state x="447" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.27.1304.741@62.27.1304.741" timestamp="1596116562893" />
+    <state x="349" y="175" width="719" height="452" key="EditFileWatcherDialog" timestamp="1596116249255">
+      <screen x="62" y="27" width="1304" height="741" />
+    </state>
+    <state x="349" y="175" width="719" height="452" key="EditFileWatcherDialog/62.27.1304.741@62.27.1304.741" timestamp="1596116249255" />
+    <state x="496" y="47" width="426" height="707" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596198865102">
+      <screen x="62" y="27" width="1304" height="741" />
+    </state>
+    <state x="496" y="47" width="426" height="707" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/62.27.1304.741@62.27.1304.741" timestamp="1596198865102" />
+    <state x="1143" y="252" key="run.anything.popup" timestamp="1596460527281">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="1143" y="252" key="run.anything.popup/62.27.1858.1053@62.27.1858.1053" timestamp="1596460527281" />
+    <state x="335" y="179" key="search.everywhere.popup" timestamp="1596633416484">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="377" y="89" key="search.everywhere.popup/62.27.1304.741@62.27.1304.741" timestamp="1596116035554" />
+    <state x="335" y="179" key="search.everywhere.popup/62.27.1858.1053@62.27.1858.1053" timestamp="1596633416484" />
+  </component>
+</project>
