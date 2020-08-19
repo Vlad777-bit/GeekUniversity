@@ -60,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Загрузки/-Bootstrap-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -97,6 +97,12 @@
       <workItem from="1596785744454" duration="276000" />
       <workItem from="1596786691834" duration="13845000" />
       <workItem from="1596802285421" duration="67000" />
+      <workItem from="1597053567072" duration="466000" />
+      <workItem from="1597054164910" duration="458000" />
+      <workItem from="1597054822079" duration="1000" />
+      <workItem from="1597056495626" duration="1000" />
+      <workItem from="1597057514664" duration="1163000" />
+      <workItem from="1597743411166" duration="72000" />
     </task>
     <servers />
   </component>
@@ -159,6 +165,10 @@
       <screen x="62" y="27" width="1304" height="741" />
     </state>
     <state x="349" y="175" width="719" height="452" key="EditFileWatcherDialog/62.27.1304.741@62.27.1304.741" timestamp="1596116249255" />
+    <state x="774" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597743480831">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="774" y="311" width="424" height="491" key="FileChooserDialogImpl/62.27.1858.1053@62.27.1858.1053" timestamp="1597743480831" />
     <state x="496" y="47" width="426" height="707" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596198865102">
       <screen x="62" y="27" width="1304" height="741" />
     </state>
