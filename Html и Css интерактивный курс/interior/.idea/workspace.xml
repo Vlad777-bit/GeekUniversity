@@ -27,6 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ae29fa76-8969-432c-8d1c-7f06a3b5d97b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -103,6 +105,7 @@
       <workItem from="1597056495626" duration="1000" />
       <workItem from="1597057514664" duration="1163000" />
       <workItem from="1597743411166" duration="72000" />
+      <workItem from="1598788979862" duration="361000" />
     </task>
     <servers />
   </component>
