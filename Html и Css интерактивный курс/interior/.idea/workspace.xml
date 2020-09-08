@@ -27,7 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ae29fa76-8969-432c-8d1c-7f06a3b5d97b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Загрузки/-Bootstrap-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../BeOnMax/project Uber/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -105,7 +104,8 @@
       <workItem from="1597056495626" duration="1000" />
       <workItem from="1597057514664" duration="1163000" />
       <workItem from="1597743411166" duration="72000" />
-      <workItem from="1598788979862" duration="361000" />
+      <workItem from="1598788979862" duration="2742000" />
+      <workItem from="1598873229831" duration="16000" />
     </task>
     <servers />
   </component>
@@ -148,6 +148,10 @@
       <screen x="62" y="27" width="1304" height="741" />
     </state>
     <state x="601" y="234" width="215" height="340" key="#File_Watchers/62.27.1304.741@62.27.1304.741" timestamp="1596116613317" />
+    <state x="620" y="234" width="732" height="644" key="#Inspections" timestamp="1598790428621">
+      <screen x="62" y="26" width="1858" height="1054" />
+    </state>
+    <state x="620" y="234" width="732" height="644" key="#Inspections/62.26.1858.1054@62.26.1858.1054" timestamp="1598790428621" />
     <state x="424" y="222" width="570" height="357" key="#Notifications" timestamp="1596181544641">
       <screen x="62" y="27" width="1304" height="741" />
     </state>
@@ -168,9 +172,10 @@
       <screen x="62" y="27" width="1304" height="741" />
     </state>
     <state x="349" y="175" width="719" height="452" key="EditFileWatcherDialog/62.27.1304.741@62.27.1304.741" timestamp="1596116249255" />
-    <state x="774" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597743480831">
-      <screen x="62" y="27" width="1858" height="1053" />
+    <state x="774" y="310" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598873243791">
+      <screen x="62" y="26" width="1858" height="1054" />
     </state>
+    <state x="774" y="310" key="FileChooserDialogImpl/62.26.1858.1054@62.26.1858.1054" timestamp="1598873243791" />
     <state x="774" y="311" width="424" height="491" key="FileChooserDialogImpl/62.27.1858.1053@62.27.1858.1053" timestamp="1597743480831" />
     <state x="496" y="47" width="426" height="707" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596198865102">
       <screen x="62" y="27" width="1304" height="741" />
