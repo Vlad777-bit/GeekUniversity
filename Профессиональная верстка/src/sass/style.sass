@@ -101,11 +101,16 @@
 			color: #222222
 
 .promo
-	width: 100%
-	min-height: 665px
-	background: url('../img/promo/promo.jpg') center (center/cover) no-repeat
+	height: 610px
+	background-color: #e8e8e8
+	&_container
+		height: inherit
+		background: url(../img/promo/men.png) no-repeat 554px 0
+		background-size: 550px
+		display: flex
+		align-items: center
 	&_content
-		height: 92px
+		height: 99px
 		border-left: 12px solid #f16d7f
 		padding-left: 12px
 	&_title
@@ -116,7 +121,7 @@
 		color: #222222
 		margin: 0
 	&_subtitle
-		font-weight: 400
+		font-weight: 600
 		font-size: 40px
 		line-height: 32px
 		margin: 19px 0 0 0
