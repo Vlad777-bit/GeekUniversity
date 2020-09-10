@@ -7,7 +7,7 @@
 	background-color: #ffffff
 	border: 1px solid #ececec
 	padding: 31px 0 31px 0
-	
+
 .container
 	width: 1140px
 	margin: 0 auto
@@ -21,15 +21,17 @@
 		img
 			margin-right: 10px
 		&_text
-			font-size: 27px
-			font-weight: 300
-			text-transform: uppercase
-			letter-spacing: 0.025em
-			color: #222222
 			span
 				font-weight: 900
 				color: #f16d7f
 				margin-right: 37px
+			a
+				font-size: 27px
+				font-weight: 300
+				text-transform: uppercase
+				letter-spacing: 0.025em
+				color: #222222
+				text-decoration: none
 	.form_header
 		display: flex
 		.browse
@@ -100,6 +102,10 @@
 			font-weight: 700
 			text-transform: uppercase
 			color: #222222
+			transition: 0.5s all
+			&:hover
+				color: #f16d7f
+				text-decoration: none
 
 .promo
 	height: 610px
@@ -277,9 +283,7 @@
 		margin: 0 auto
 		margin-top: 80px
 		// text
-		font-family: Lato
 		font-size: 16px
-		line-height: 54px
 		font-weight: 700
 		letter-spacing: 0.025em
 		color: #ffffff
@@ -322,6 +326,7 @@
 				margin-right: 30px
 			&_text
 			&_title
+				margin-top: 17px
 				font-size: 20px
 				line-height: 1.2
 				font-weight: 700
@@ -331,7 +336,7 @@
 				margin-left: 82px
 				min-height: 58px
 				font-size: 14px
-				line-height: 24px
+				line-height: 20px
 				font-weight: 300
 				letter-spacing: 0.025em
 				color: #fbfbfb
