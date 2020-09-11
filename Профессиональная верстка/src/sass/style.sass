@@ -441,3 +441,42 @@
 				font-weight: 400
 				letter-spacing: 0.025em
 				color: #ffffff
+
+.footer
+	padding: 109px 0 89px 0
+	&_blocks
+		display: flex
+		justify-content: space-between
+	&_column
+		display: flex
+		flex-direction: column
+	&_logo
+		display: flex
+		align-items: flex-end
+		margin-bottom: 30px
+		a
+			margin-right: 13px
+	&_text
+		width: 427px
+		font-size: 14px
+		line-height: 24px
+		font-weight: 300
+		letter-spacing: 0.025em
+		color: #898989
+	&_title
+		font-size: 18px
+		font-weight: 700
+		letter-spacing: 0.025em
+		color: #f16d7f
+		margin-bottom: 45px
+	&_link
+		font-size: 16px
+		font-weight: 400
+		letter-spacing: 0.025em
+		color: #898989
+		transition: 0.5s all
+		&:not(:last-child)
+			margin-bottom: 25px
+		&:hover
+			color: #f16d7f
+			text-decoration: none
