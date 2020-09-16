@@ -11,6 +11,20 @@
 	font-size: 13px
 	font-weight: 300
 	color: #b1b1b1
+// EXTEND	
+%sel_input_single
+	margin-top: 10px
+	width: 144px
+	height: 35px
+	background-color: #ffffff
+	border: 1px solid #eaeaea
+	// placeholder
+	font-family: Lato
+	font-size: 14px
+	font-weight: 400
+	color: #bcbcbc
+	padding: 10px
+	outline: none
 
 *
 	font-family: 'Lato', sans-serif
@@ -875,23 +889,26 @@
 				font-size: 14px
 				font-weight: 700
 				color: #2f2f2f
+			.block_relative
+				position: relative
+				.red_block
+					position: absolute
+					width: 12px
+					height: 12px
+					background: #f16d7f
+					top: 21px
+					left: 14px
+				.color
+					padding-left: 30px
 			select, input
-				margin-top: 10px
-				width: 144px
-				height: 35px
-				background-color: #ffffff
-				border: 1px solid #eaeaea
-				// placeholder
-				font-family: Lato
-				font-size: 14px
-				font-weight: 400
-				color: #bcbcbc
+				@extend %sel_input_single
 	.add_to_cart
 		width: 537px
 		height: 55px
 		margin: 0 auto
 		background-color: #ffffff
 		border: 1px solid #ef5b70
+		outline: none
 		// text
 		font-family: Lato
 		font-size: 16px
@@ -902,5 +919,10 @@
 		display: flex
 		justify-content: center
 		align-items: center
+		transition: 0.5s all
+		&:hover
+			background-color: #eaeaea
+			border: 1px solid #ef5b70
+			color: #ef5b70
 		img
 			margin-right: 5px
