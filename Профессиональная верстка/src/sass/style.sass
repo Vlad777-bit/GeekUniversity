@@ -957,7 +957,6 @@
 		margin-top: 18px
 		border: none
 		border-radius: 0
-		// border-bottom: 1px solid #ebebeb
 	.my_header
 		height: 37px
 		display: flex
@@ -990,6 +989,7 @@
 			text-transform: uppercase
 			color: #6f6e6e
 		&_items
+			margin-top: 18px
 			a
 				font-size: 14px
 				font-weight: 400
@@ -998,8 +998,19 @@
 					border-right: 1px solid #dfdfdf
 					padding-right: 5px
 	.size
-		input
-			width: 13px
-			height: 13px
-			background-color: #ffffff
-			border: 1px solid #ebebeb
+		&_title
+			margin-bottom: 18px
+		&_item
+			float: left
+			width: 63px
+	.my_form
+		margin-top: 71px
+		div
+			display: flex
+			justify-content: space-between
+			span
+				font-size: 14px
+				font-weight: 400
+				color: #6f6e6e
+		.my_label
+			@extend .trending_title
