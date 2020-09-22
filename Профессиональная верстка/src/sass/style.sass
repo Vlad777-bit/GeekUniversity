@@ -42,6 +42,9 @@
 		text-transform: uppercase
 		color: #f16d7f
 
+$main_color: #f16d7f
+$s_transition: 0.5s all		
+
 *
 	font-family: 'Lato', sans-serif
 
@@ -131,7 +134,7 @@
 			font-weight: 400
 			letter-spacing: 0.025em
 			color: #ffffff
-			transition: 0.5s all
+			transition: $s_transition
 			&:hover
 				opacity: 0.67
 				background-color: #e1e1e1
@@ -157,7 +160,7 @@
 			font-weight: 700
 			text-transform: uppercase
 			color: #222222
-			// transition: 0.5s all
+			// transition: $s_transition
 			&:hover
 				color: #f16d7f
 				text-decoration: none
@@ -280,7 +283,7 @@
 		width: 100%
 		height: inherit
 		position: relative
-		transition: 0.5s all
+		transition: $s_transition
 		&:hover
 			box-shadow: 0 5px 8px 0 rgba(0,0,0,0.15)
 		.prewive
@@ -291,7 +294,7 @@
 			width: 100%
 			height: 100%
 			padding: 34% 3%
-			transition: 0.5s all
+			transition: $s_transition
 			.add
 				width: 50%
 				padding: 10px 5px
@@ -335,7 +338,7 @@
 		font-weight: 700
 		letter-spacing: 0.025em
 		color: #ffffff
-		transition: 0.5s all
+		transition: $s_transition
 		&:hover
 			opacity: 0.67
 			background-color: #e1e1e1
@@ -443,7 +446,7 @@
 					width: 38px
 					height: 4px
 					background-color: #d6d6d6
-					transition: 0.5s all
+					transition: $s_transition
 					&:hover
 						background-color: #f16d7f
 		.line
@@ -494,7 +497,7 @@
 				font-weight: 400
 				letter-spacing: 0.025em
 				color: #ffffff
-				transition: 0.5s all
+				transition: $s_transition
 				&:hover
 					opacity: 0.67
 					background-color: #e1e1e1
@@ -532,7 +535,7 @@
 		font-weight: 400
 		letter-spacing: 0.025em
 		color: #898989
-		transition: 0.5s all
+		transition: $s_transition
 		&:not(:last-child)
 			margin-bottom: 25px
 		&:hover
@@ -569,7 +572,7 @@
 				align-items: center
 				text-align: center
 				color: #7a7a7a
-				transition: 0.5s all
+				transition: $s_transition
 				&:hover
 					background-color: #f16d7f
 					color: #ffffff
@@ -599,7 +602,7 @@
 		a
 			text-decoration: none
 			color: #636363
-			transition: 0.5s all
+			transition: $s_transition
 			&:hover
 				color: #f16d7f
 
@@ -670,7 +673,7 @@
 			i
 				font-size: 17px
 				color: #c0c0c0
-				transition: 0.5s all
+				transition: $s_transition
 				&:hover
 					color: #000000
 	.shopping_btn
@@ -682,7 +685,7 @@
 			padding: 20px 40px
 			background-color: #ffffff
 			border: 1px solid #eaeaea
-			transition: 0.5s all
+			transition: $s_transition
 			outline: none
 			// text
 			font-size: 14px
@@ -714,7 +717,7 @@
 			padding: 12px 17px
 			background-color: #ffffff
 			border: 1px solid #eaeaea
-			transition: 0.5s all
+			transition: $s_transition
 			// text
 			font-size: 11px
 			font-weight: 700
@@ -742,7 +745,7 @@
 			padding: 12px 17px
 			background-color: #ffffff
 			border: 1px solid #eaeaea
-			transition: 0.5s all
+			transition: $s_transition
 			// text
 			font-size: 11px
 			font-weight: 700
@@ -789,7 +792,7 @@
 			font-weight: 700
 			text-transform: uppercase
 			color: #ffffff
-			transition: 0.5s all
+			transition: $s_transition
 			outline: none
 			&:hover
 				opacity: 0.67
@@ -916,7 +919,6 @@
 		border: 1px solid #ef5b70
 		outline: none
 		// text
-		font-family: Lato
 		font-size: 16px
 		font-weight: 700
 		color: #ef5b70
@@ -925,7 +927,7 @@
 		display: flex
 		justify-content: center
 		align-items: center
-		transition: 0.5s all
+		transition: $s_transition
 		&:hover
 			background-color: #eaeaea
 			border: 1px solid #ef5b70
@@ -1091,7 +1093,7 @@
 		background-color: #ffffff
 		border: 1px solid #ef5b70
 		border-radius: 3px
-		transition: 0.5s all
+		transition: $s_transition
 		outline: none
 		// text
 		font-size: 16px
@@ -1127,4 +1129,62 @@
 		font-weight: 300
 		letter-spacing: 0.025em
 		color: #fbfbfb
-		// text-align: center
+
+// CECKOUT
+
+.dropdown
+	margin-top: 80px
+	&_container
+	&_list
+	&_header
+		position: relative
+		outline: none
+		left: 1px
+	&_title
+		color: #222222
+		font-size: 16px
+		font-weight: 700
+		text-transform: uppercase
+		position: absolute
+		left: -1px
+		top: 0
+		background: #ffffff
+	&_registration
+		width: 50%
+		padding-left: 35px
+		display: flex
+		flex-direction: column
+		align-items: flex-start
+		.register_title
+			margin-top: 30px
+			font-size: 13px
+			font-weight: 400
+			text-transform: uppercase
+			color: #222222
+		.register_subtitle
+			margin-top: 10px
+			font-size: 13px
+			font-weight: 400
+			color: #b3b2b2
+		.register_form
+			input[type="radio"]
+				margin-right: 14px
+				color: #212121
+			label
+				@extend .register_title
+				&:last-child
+					margin: 0
+	&_btn
+		margin-top: 30px
+		padding: 15px 50px
+		background-color: #ffffff
+		border: 1px solid #eaeaea
+		// text
+		font-size: 14px
+		font-weight: 700
+		text-transform: uppercase
+		color: #4a4a4a
+		transition: $s_transition
+		&:hover
+			background-color: $main_color
+			color: #ffffff
