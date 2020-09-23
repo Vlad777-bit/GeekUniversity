@@ -1136,10 +1136,15 @@ $s_transition: 0.5s all
 	margin-top: 80px
 	&_container
 	&_list
+		padding-bottom: 30px
+		border-bottom: 1px solid #e8e8e8
+		&:not(:first-child)
+			margin-top: 30px
+
 	&_header
 		position: relative
 		outline: none
-		left: 1px
+		left: 0
 	&_title
 		color: #222222
 		font-size: 16px
@@ -1149,8 +1154,11 @@ $s_transition: 0.5s all
 		left: -1px
 		top: 0
 		background: #ffffff
+	&_blocks
+		display: flex
+		justify-content: space-between
 	&_registration
-		width: 50%
+		width: calc(50% - 15px)
 		padding-left: 35px
 		display: flex
 		flex-direction: column
@@ -1188,3 +1196,40 @@ $s_transition: 0.5s all
 		&:hover
 			background-color: $main_color
 			color: #ffffff
+	&_login
+		width: calc(50% - 15px)
+		.login_title
+			margin-top: 30px
+			font-size: 13px
+			font-weight: 400
+			text-transform: uppercase
+			color: #222222
+		.login_subtitle
+			margin-top: 10px
+			font-size: 13px
+			font-weight: 400
+			color: #b3b2b2
+		.login_form
+			label
+				margin-top: 27px
+				font-size: 12px
+				font-weight: 400
+				color: #222222
+				span
+					color: #ff0d0d
+			input
+				padding: 0 15px
+				width: 390px
+				height: 45px
+				background-color: #ffffff
+				border: 1px solid #eaeaea
+		.hint
+			margin-top: 25px
+			font-size: 13px
+			font-weight: 400
+			color: #ff0d0d
+		.forgot
+			font-size: 14px
+			font-weight: 400
+			color: #222222
+			margin-left: 32px
