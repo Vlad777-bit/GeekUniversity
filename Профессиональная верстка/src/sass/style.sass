@@ -1,5 +1,4 @@
 @import "../bootstrap-4.5.2/scss/bootstrap"
-
 // MIXIN
 =input_form
 	margin-top: 23px
@@ -160,14 +159,16 @@ $s_transition: 0.5s all
 			font-weight: 700
 			text-transform: uppercase
 			color: #222222
-			// transition: $s_transition
+			transition: $s_transition
 			&:hover
 				color: #f16d7f
 				text-decoration: none
+				border-bottom: 3px solid #f16d7f
+				padding-bottom: 15px
 		.active_link
 			width: 75px
 			border-bottom: 3px solid #f16d7f
-			padding: 15px
+			padding-bottom: 15px
 
 .promo
 	height: 610px
@@ -508,6 +509,10 @@ $s_transition: 0.5s all
 	&_blocks
 		display: flex
 		justify-content: space-between
+	&_columns_group
+		display: flex
+		justify-content: space-between
+		width: 50%
 	&_column
 		display: flex
 		flex-direction: column
@@ -1155,6 +1160,7 @@ $s_transition: 0.5s all
 		top: 0
 		background: #ffffff
 	&_blocks
+		padding-top: 30px
 		display: flex
 		justify-content: space-between
 	&_registration
@@ -1164,17 +1170,19 @@ $s_transition: 0.5s all
 		flex-direction: column
 		align-items: flex-start
 		.register_title
-			margin-top: 30px
 			font-size: 13px
 			font-weight: 400
 			text-transform: uppercase
 			color: #222222
+		.register_save
+			margin-top: 30px
 		.register_subtitle
 			margin-top: 10px
 			font-size: 13px
 			font-weight: 400
 			color: #b3b2b2
 		.register_form
+			margin-top: 34px
 			input[type="radio"]
 				margin-right: 14px
 				color: #212121
@@ -1199,7 +1207,6 @@ $s_transition: 0.5s all
 	&_login
 		width: calc(50% - 15px)
 		.login_title
-			margin-top: 30px
 			font-size: 13px
 			font-weight: 400
 			text-transform: uppercase
@@ -1224,7 +1231,7 @@ $s_transition: 0.5s all
 				background-color: #ffffff
 				border: 1px solid #eaeaea
 		.hint
-			margin-top: 25px
+			margin-top: 34px
 			font-size: 13px
 			font-weight: 400
 			color: #ff0d0d
@@ -1233,3 +1240,84 @@ $s_transition: 0.5s all
 			font-weight: 400
 			color: #222222
 			margin-left: 32px
+
+@media (max-width: 1200px)
+	.container
+		width: auto
+		.feedback
+			display: flex
+			flex-wrap: wrap
+			justify-content: center
+		.feedback_text
+			margin-top: 20px
+		.subscribe_input
+			width: 260px
+
+@media (max-width: 991px)
+	.container
+		width: auto
+		margin: auto
+		.top_content
+			align-items: flex-end
+		.form_header
+			.header_input
+				width: 180px
+	.beach
+		.line
+			display: none
+		.subscribe
+			form
+				display: flex
+				flex-direction: column
+				.subscribe_input
+					width: 100%
+					border-radius: 23px
+				.subscribe_btn
+					border-radius: 23px
+					text-align: center
+	.footer
+		.footer_blocks
+			display: flex
+			flex-direction: column
+			.footer_column
+				display: flex
+				float: right
+			.footer_column_block
+				display: flex
+				justify-content: center
+				align-items: center
+				.footer_text
+					width: auto
+					text-align: center
+			.footer_columns_group
+				margin-top: 30px
+				width: auto
+
+@media (max-width: 767px)
+	.container
+		width: auto
+		margin: auto
+		.top_content
+			flex-wrap: wrap
+			display: flex
+			flex-direction: column
+			align-items: center
+			.logo
+				width: 100%
+				display: flex
+				align-items: center
+				justify-content: center
+			.basket_block
+				width: 100%
+				img
+					display: none
+				.account
+					margin-top: 20px
+					width: 100%
+					text-align: center
+		.menu
+			width: 100%
+			display: flex
+			justify-content: space-between
+			.menu_list
+				padding: 0 9px
