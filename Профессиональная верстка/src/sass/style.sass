@@ -276,7 +276,7 @@ $s_transition: 0.5s all
 	&_list
 		margin-top: 60px
 		display: grid
-		grid-template-columns: repeat(4, 263px)
+		grid-template-columns: repeat(auto-fit, 263px)
 		justify-content: space-between
 		grid-row-gap: 39px
 		grid-column-gap: 29px
@@ -476,7 +476,7 @@ $s_transition: 0.5s all
 				border: none
 				border-top-left-radius: 23px
 				border-bottom-left-radius: 23px
-				padding: 18px 130px 18px 28px
+				padding: 18px 28px
 				float: left
 				outline: none
 				// text
@@ -1242,14 +1242,56 @@ $s_transition: 0.5s all
 @media (max-width: 1200px)
 	.container
 		width: auto
-		.feedback
-			display: flex
-			flex-wrap: wrap
+	.promo_container
+		background: url(../img/promo/men.png) no-repeat 100% 0
+	.category_container
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: space-between
+		.category_img_4
+			margin-top: 0
+	.women_container
+		display: block
+	.women_img
+		width: auto
+		padding: 20px
+		background-image: none
+		.women_content
+			text-align: center
+	.right_block
+		width: 100% !important
+		display: grid
+		gap: 15px
+		grid-template-columns: repeat(auto-fit, 222px)
+		justify-content: space-around
+		align-items: center
+		padding: 48px 20px !important
+		.conditions_title
+			display: grid
+			grid-gap: 20px
 			justify-content: center
-		.feedback_text
-			margin-top: 20px
+		.conditions_text
+			p
+				margin: 17px 0 !important
+		.conditions_logo
+			margin: 0 auto !important
+		.percent, .crown
+			@extend .conditions_logo
+	.feedback
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+	.feedback_text
+		margin-top: 20px
+	.beach
 		.subscribe_input
-			width: 260px
+			width: 100%
+			border-radius: 23px
+		.subscribe_btn
+			width: 100%
+			border-radius: 23px
+			text-align: center
 
 @media (max-width: 991px)
 	.container
@@ -1260,6 +1302,12 @@ $s_transition: 0.5s all
 		.form_header
 			.header_input
 				width: 180px
+		.promo_title
+			font-size: 40px
+		.promo_subtitle
+			font-size: 30px
+			span
+				font-size: 30px
 	.beach
 		.line
 			display: none
@@ -1295,6 +1343,8 @@ $s_transition: 0.5s all
 	.container
 		width: auto
 		margin: auto
+		.product_list
+			justify-content: center
 		.top_content
 			flex-wrap: wrap
 			display: flex
@@ -1379,6 +1429,8 @@ $s_transition: 0.5s all
 					border: none
 			.active_link
 				border: none
+	.category
+		display: none
 
 @media (max-width: 500px)
 	.menu
@@ -1400,3 +1452,7 @@ $s_transition: 0.5s all
 @media (max-width: 450px)
 	.footer_columns_group
 		display: none
+
+@media (max-width: 423px)
+	.slider
+		margin-top: 15px
