@@ -10,6 +10,8 @@
 		justify-content: space-between
 		.category_img_4
 			margin-top: 0
+	.description_container
+		padding: 71px 50px
 	.women_container
 		display: block
 	.women_img
@@ -142,6 +144,17 @@
 				margin-top: 30px
 				width: 100%
 				padding-left: 0
+		.description_line
+			width: 100%
+		.description_choose
+			display: flex
+			flex-direction: column
+			align-items: center
+			.choose_color
+				&:not(:first-child)
+					margin-top: 30px
+		.add_to_cart
+			width: 100%
 		.beach_content
 			display: flex
 			flex-direction: column
@@ -164,10 +177,24 @@
 			width: auto
 			padding: 30px
 			min-height: inherit
+		.footer_column
+			display: flex
+			align-items: center
 
 @media (max-width: 575px)
 	.container
 		padding: 0 20px
+	.description_container
+		padding: 71px
+		margin: 0 48px
+		.description_specifications
+			flex-direction: column
+			align-items: center
+			.material
+				&:not(:first-child)
+					margin-top: 10px
+		.description_choose
+			width: 100%
 		.logo
 			flex-direction: column
 			display: flex
@@ -192,6 +219,9 @@
 		display: none
 
 @media (max-width: 500px)
+	.logo
+		display: flex
+		flex-direction: column
 	.menu
 		width: 100%
 		padding: 20px 0
