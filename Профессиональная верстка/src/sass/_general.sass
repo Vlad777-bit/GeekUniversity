@@ -912,7 +912,16 @@
 // PRODUCT	
 
 .goods
-	padding: 59px
+	margin-top: 59px
+	.container_goods
+		display: grid
+		grid-template-columns: 243px 847px
+		gap: 49px
+	.right_goods_block
+		.goods_specifications
+			display: flex
+			justify-content: space-between
+			flex-wrap: wrap
 	.productsMenuToggler
 		font-size: 14px
 		font-weight: 700
@@ -935,6 +944,7 @@
 	.productsMenu:not(:first-child)
 		margin-top: 18px
 	.trending
+		width: 155px
 		&_title
 			font-size: 14px
 			font-weight: 700
@@ -950,12 +960,14 @@
 					border-right: 1px solid #dfdfdf
 					padding-right: 5px
 	.size
+		width: 255px
 		&_title
 			margin-bottom: 18px
 		&_item
 			float: left
 			width: 63px
 	.my_form
+		width: 223px
 		div
 			display: flex
 			justify-content: space-between
@@ -977,6 +989,7 @@
 		display: flex
 		align-items: center
 		justify-content: flex-start
+		flex-wrap: wrap
 		.sort
 			display: flex
 			margin-right: 10px
@@ -995,6 +1008,9 @@
 				padding-left: 5px
 				padding-right: 8px
 	.goods_items
+		display: grid
+		grid-template-columns: repeat(3, 262px)
+		gap: 30px
 		.items_mt
 			margin-top: 38px
 		.prewive_product
