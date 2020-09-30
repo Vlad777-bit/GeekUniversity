@@ -192,10 +192,10 @@
 					margin-top: 30px
 		.add_to_cart
 			width: 100%
-		.beach_content
-			display: flex
-			flex-direction: column
-			align-items: center
+	.beach_content
+		display: flex
+		flex-direction: column
+		align-items: center
 		.feedback
 			width: 100%
 			flex-direction: column
@@ -214,9 +214,9 @@
 			width: auto
 			padding: 30px
 			min-height: inherit
-		.footer_column
-			display: flex
-			align-items: center
+	.footer_column
+		display: flex
+		align-items: center
 
 @media (max-width: 575px)
 	.container
@@ -240,25 +240,6 @@
 			width: 100px
 		.footer_column
 			align-items: center
-		.menu
-			width: 100%
-			padding: 20px 0
-			display: flex
-			flex-direction: column
-			.menu_list
-				padding: 0 9px
-			.menu_link
-				&:hover
-					border: none
-			.active_link
-				border: none
-	.category
-		display: none
-
-@media (max-width: 500px)
-	.logo
-		display: flex
-		flex-direction: column
 	.menu
 		width: 100%
 		padding: 20px 0
@@ -266,16 +247,43 @@
 		flex-direction: column
 		.menu_list
 			padding: 0 9px
+			.menu_link
+				&:hover
+					border: none
+			.active_link
+				border: none
+	.goods
+		.goods_items
+			display: grid
+			grid-template-columns: 268px
+			justify-content: center
+	.reasons_container
+		padding: 20px
+	.category
+		display: none
+
+@media (max-width: 500px)
+	.logo
+		display: flex
+		flex-direction: column
 	.arrivals_container
 		flex-direction: column
 		display: flex
 		align-items: center
+		justify-content: center
+	.reasons_container
+		display: grid
+		grid-template-columns: 215px
 		justify-content: center
 	.footer_container
 		flex-direction: column-reverse
 		padding-top: 10px
 
 @media (max-width: 450px)
+	.size
+		margin-top: 20px
+	.view
+		margin-top: 20px
 	.footer_columns_group
 		display: none
 
