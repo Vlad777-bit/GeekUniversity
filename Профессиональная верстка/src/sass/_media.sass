@@ -19,6 +19,19 @@
 			grid-template-columns: repeat(3, 1fr)
 	.description_container
 		padding: 71px 50px
+	.shopping_header
+		div
+			&:first-child
+				width: 280px
+	.shipping_container
+		flex-wrap: wrap
+	.shipping_result
+		width: 100%
+		padding: 43px
+		display: flex
+		flex-direction: column
+		align-items: center
+		margin-top: 20px
 	.women_container
 		display: block
 	.women_img
@@ -88,6 +101,37 @@
 		grid-template-columns: repeat(3, 1fr)
 		gap: 30px
 		.reasons_blocks
+			width: 100%
+	.shopping_header
+		display: none
+	.shopping
+		.products_content
+			.products_details-grid
+				display: grid
+				grid-template-columns: repeat(5, auto)
+				gap: 0
+				.products_details
+					padding: 0
+					margin-top: 10px
+					display: flex
+					height: 9vh
+					flex-direction: column
+					justify-content: space-between
+					align-items: center
+					.details_label
+						display: block
+	.shipping_container
+		flex-wrap: wrap
+		flex-direction: column
+		align-items: center
+	.shipping_address
+		width: 100%
+		.country
+			width: 100%
+	.shipping_discount
+		width: 100%
+		margin-top: 20px
+		.country
 			width: 100%
 	.beach
 		.line
@@ -159,6 +203,25 @@
 			grid-template-columns: repeat(2, 1fr)
 		.my_form
 			margin-top: 20px
+	.shopping
+		.products_content
+			display: block
+			.products_specifications
+				width: 100%
+			.products_details-grid
+				display: grid
+				grid-template-columns: repeat(5, auto)
+				justify-content: space-between
+				.products_details
+					padding: 0
+					margin-top: 10px
+					display: flex
+					height: 9vh
+					flex-direction: column
+					justify-content: space-between
+					align-items: center
+					.details_label
+						display: block
 	.reasons_container
 		display: grid
 		grid-template-columns: repeat(2, 1fr)
@@ -262,10 +325,19 @@
 	.category
 		display: none
 
-@media (max-width: 500px)
+@media (max-width: 550px)
 	.logo
 		display: flex
 		flex-direction: column
+
+@media (max-width: 520px)
+	.shopping_btn
+		button
+			width: 100%
+			&:not(:first-child)
+				margin-top: 20px
+
+@media (max-width: 500px)
 	.arrivals_container
 		flex-direction: column
 		display: flex
@@ -284,6 +356,12 @@
 		margin-top: 20px
 	.view
 		margin-top: 20px
+	.shopping
+		.products_content
+			.products_details-grid
+				display: grid
+				grid-template-columns: repeat(3, auto)
+				row-gap: 10px
 	.footer_columns_group
 		display: none
 

@@ -620,23 +620,30 @@
 			font-size: 13px
 			font-weight: 400
 			color: #656565
-			.quantity
-				width: 54px
-				height: 30px
-				background-color: #ffffff
-				border: 1px solid #eaeaea
-				text-align: center
-			i
-				font-size: 17px
-				color: #c0c0c0
-				transition: $s_transition
-				&:hover
-					color: #000000
+		.products_details-grid
+			display: grid
+			grid-template-columns: repeat(5, 1fr)
+			gap: 56px
+		.details_label
+			display: none
+		.quantity
+			width: 54px
+			height: 30px
+			background-color: #ffffff
+			border: 1px solid #eaeaea
+			text-align: center
+		i
+			font-size: 17px
+			color: #c0c0c0
+			transition: $s_transition
+			&:hover
+				color: #000000
 	.shopping_btn
 		margin-top: 44px
 		display: flex
 		justify-content: space-between
 		align-items: center
+		flex-wrap: wrap
 		button
 			padding: 20px 40px
 			background-color: #ffffff
